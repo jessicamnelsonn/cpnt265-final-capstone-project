@@ -1,19 +1,29 @@
 <script>
+  const navItems = [
+    { name: 'Home', href: '/' },
+    { name: 'About', href: '/about' },
+    { name: 'Contact', href: '/contact' }
+  ];
+
   export let title = "Jessica Nelson";
   export let subtitle = "Web Developer";
 </script>
 
-<div class="text-white p-8 animate-gradient flex justify-between">
+<header class="text-white p-8 animate-gradient flex justify-between">
   <div>
-    <h1 class="text-5xl font-extrabold mb-4">{title}</h1>
-    <p class="text-2xl opacity-75">{subtitle}</p>
+    <h1 class="text-4xl font-extrabold mb-4">{title}</h1>
+    <p class="text-xl opacity-75">{subtitle}</p>
   </div>
-  <nav class="flex gap-4">
-    <a href="#home" class="text-white hover:text-gray-300">Home</a>
-    <a href="#about" class="text-white hover:text-gray-300">About</a>
-    <a href="#contact" class="text-white hover:text-gray-300">Contact</a>
+  <nav>
+    <ul class="flex items-center space-x-8">
+      {#each navItems as { name, href }}
+        <li>
+          <a href={href} class="text-xl text-white hover:text-indigo-400 hover:underline transition-colors duration-300">{name}</a>
+        </li>
+      {/each}
+    </ul>
   </nav>
-</div>
+</header>
 
 <style>
   @keyframes gradient {
