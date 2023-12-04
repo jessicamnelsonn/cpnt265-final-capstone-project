@@ -3,9 +3,16 @@
   export let subtitle = "Web Developer";
 </script>
 
-<div class="text-white p-8 animate-gradient">
-  <h1 class="text-5xl font-extrabold mb-4">{title}</h1>
-  <p class="text-2xl opacity-75">{subtitle}</p>
+<div class="text-white p-8 animate-gradient flex justify-between">
+  <div>
+    <h1 class="text-5xl font-extrabold mb-4">{title}</h1>
+    <p class="text-2xl opacity-75">{subtitle}</p>
+  </div>
+  <nav class="flex gap-4">
+    <a href="#home" class="text-white hover:text-gray-300">Home</a>
+    <a href="#about" class="text-white hover:text-gray-300">About</a>
+    <a href="#contact" class="text-white hover:text-gray-300">Contact</a>
+  </nav>
 </div>
 
 <style>
@@ -22,7 +29,7 @@
   }
 
   .animate-gradient {
-    background: linear-gradient(45deg, #dfd1c4, #BFA58E, #120000);
+    background: linear-gradient(45deg, #aa8869, #443120, #170101);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
   }
