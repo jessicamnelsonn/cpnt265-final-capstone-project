@@ -1,7 +1,9 @@
 <script>
-  import Hero from '../lib/components/Hero.svelte';
+import Hero from '../lib/components/Hero.svelte';
 </script>
 
-<main>
+<main class="p-8">
   <Hero />
 </main>
+
+
