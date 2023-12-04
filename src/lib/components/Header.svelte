@@ -11,11 +11,11 @@
 
 <header class="text-white p-8 animate-gradient flex justify-between">
   <div>
-    <h1 class="text-4xl font-extrabold mb-4">{title}</h1>
-    <p class="text-xl opacity-75">{subtitle}</p>
+    <h1 class="text-4xl font-bold mb-4 font-barlow">{title}</h1>
+    <p class="text-xl opacity-80 font-rasa">{subtitle}</p>
   </div>
   <nav>
-    <ul class="flex items-center space-x-8">
+    <ul class="flex items-center space-x-8 font-barlow">
       {#each navItems as { name, href }}
         <li>
           <a href={href} class="text-xl text-white hover:text-indigo-400 hover:underline transition-colors duration-300">{name}</a>
