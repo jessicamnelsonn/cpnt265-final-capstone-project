@@ -3,8 +3,9 @@
   import Header from '../lib/components/Header.svelte';
 </script>
 
-<slot />
-
 <main>
   <Header />
 </main>
+
+<slot />
+
