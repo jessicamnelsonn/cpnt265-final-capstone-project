@@ -8,7 +8,7 @@
     setTimeout(() => {
       // Find the element with the class 'loader-wrapper' and hide it by changing its display style
       document.querySelector('.loader-wrapper').style.display = 'none';
-    }, 4000); // Set the timeout duration to 4000 milliseconds (4 seconds)
+    }, 3000); // Set the timeout duration to 3000 milliseconds (3 seconds)
   });
 </script>
 
