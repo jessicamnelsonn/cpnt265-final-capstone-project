@@ -1,11 +1,11 @@
 <script>
-    const navItems = [
+  import Icon from '@iconify/svelte';
+
+  const navItems = [
     { name: 'Home', href: '/' },
     { name: 'About', href: '/about' },
     { name: 'Contact', href: '/contact' }
   ];
-
-  import Icon from '@iconify/svelte';
 </script>
 
 <footer class="bg-black p-4 text-white rounded-md shadow-lg">
@@ -30,9 +30,12 @@
       <p><Icon icon="mdi:github" class="h-12 w-12" /></p>
   </a>
 
-  <a href="www.linkedin.com/in/jessicamnelson" class="text-white hover:text-gray-400 transition">
+  <a href="https://www.linkedin.com/in/jessicamnelson" class="text-white hover:text-gray-400 transition">
       <p><Icon icon="mdi:linkedin" class="h-12 w-12" /></p>
   </a>
 </section>
 
 </footer>
+
+
+
