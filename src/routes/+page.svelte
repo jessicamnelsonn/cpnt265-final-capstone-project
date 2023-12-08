@@ -1,6 +1,6 @@
 <script>
-import Hero from '../lib/components/Hero.svelte'
+import Home from '../lib/components/Home.svelte'
 </script>
 
-<Hero />
+<Home />
 

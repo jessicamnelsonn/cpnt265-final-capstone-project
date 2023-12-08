@@ -1,8 +1,9 @@
 <script>
   const navItems = [
-    { name: 'Home', href: '/' },
-    { name: 'About', href: '/about' },
-    { name: 'Contact', href: '/contact' }
+    { name: '', href: '/' },
+    { name: 'About', href: '#about-section' },
+    { name: 'Projects', href: '#project-section' },
+    { name: 'Contact', href: '#contact-section' }
   ];
 
   export let title = "Jessica Nelson";
@@ -39,7 +40,7 @@
   }
 
   .animate-gradient {
-    background: linear-gradient(45deg, #000000, #080010, #e6d7ff);
+    background: linear-gradient(45deg, #000000, #080010, #fdbd85);
     background-size: 400% 400%;
     animation: gradient 16s ease infinite;
   }
