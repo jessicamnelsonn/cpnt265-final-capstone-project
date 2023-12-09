@@ -1,5 +1,7 @@
 <script>
   import About from '../components/About.svelte'
+  import Projects from '../components/Projects.svelte'
+  import { projects } from '../data.js';
   import Contact from '../components/Contact.svelte'
 </script>
 
@@ -20,6 +22,12 @@
 </main>
 
 <About />
+
+<main class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 bg-black">
+  {#each projects as project}
+    <Projects {...project} />
+  {/each}
+</main>
 
 <Contact />
 

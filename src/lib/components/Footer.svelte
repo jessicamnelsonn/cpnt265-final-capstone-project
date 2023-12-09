@@ -10,7 +10,7 @@
   ];
 </script>
 
-<footer class="bg-black p-4 text-white rounded-md shadow-lg">
+<footer class="bg-black p-4 text-white shadow-lg">
   <!-- Navigation section -->
   <nav>
     <ul class="flex justify-center gap-9 font-barlow">

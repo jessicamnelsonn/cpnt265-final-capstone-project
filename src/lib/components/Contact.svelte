@@ -1,4 +1,4 @@
-<div class="flex flex-col items-center lg:flex-row">
+<main class="flex flex-col items-center lg:flex-row" id="contact-section">
   <!-- Left side image -->
   <div class="lg:max-w-sm lg:mx-auto m-4">
     <h1><img src="images/pawel-czerwinski-Qiy4hr18aGs-unsplash.jpg" alt=""></h1>
@@ -24,4 +24,4 @@
     <input type="submit" value="Send Message" class="w-full p-2 mb-4 text-white transition duration-300 ease-in-out transform hover:bg-blue-700 bg-blue-600 cursor-pointer font-barlow">
 
   </form>
-</div>
+</main>
