@@ -1,5 +1,6 @@
 <script>
   import About from '../components/About.svelte'
+  import Contact from '../components/Contact.svelte'
 </script>
 
 <!-- Hero Section -->
@@ -20,6 +21,7 @@
 
 <About />
 
+<Contact />
 
 
 

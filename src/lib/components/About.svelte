@@ -28,7 +28,7 @@
 <!-- About Section -->
 <main class="h-screen flex flex-col md:flex-row" id="about-section">
   <!-- Left Section with Greetings -->
-  <section class="w-full md:w-1/2 h-full bg-white text-black flex items-center justify-center">
+  <section class="w-full md:w-1/2 h-full bg-white text-black flex items-center justify-center border-b">
     <div>
       {#key index}
         <!-- Displaying dynamic greetings with a sliding transition -->
