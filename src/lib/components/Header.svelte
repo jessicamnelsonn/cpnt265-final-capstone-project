@@ -10,21 +10,22 @@
   export let subtitle = "Web Developer";
 </script>
 
-<header class="text-white p-8 animate-gradient flex justify-between items-center">
-  <div>
-    <h1 class="text-4xl font-bold mb-2 font-barlow">{title}</h1>
-    <p class="text-lg opacity-80 font-rasa">{subtitle}</p>
+<header class="text-white p-8 animate-gradient flex flex-col md:flex-row justify-between items-center">
+  <div class="text-center md:text-left mb-4 md:mb-0">
+    <h1 class="text-2xl md:text-4xl lg:text-5xl font-bold mb-2 font-barlow">{title}</h1>
+    <p class="text-lg md:text-xl lg:text-2xl opacity-80 font-rasa">{subtitle}</p>
   </div>
   <nav>
-    <ul class="flex items-center space-x-8 font-barlow">
+    <ul class="flex items-center space-x-4 md:space-x-8 font-mono">
       {#each navItems as { name, href }}
         <li>
-          <a href={href} class="text-lg text-white hover:text-indigo-400 hover:underline transition-colors duration-300">{name}</a>
+          <a href={href} class="text-base md:text-xl lg:text-2xl text-white hover:text-indigo-400 hover:underline transition-colors duration-300">{name}</a>
         </li>
       {/each}
     </ul>
   </nav>
 </header>
+
 
 <style>
   @keyframes gradient {
