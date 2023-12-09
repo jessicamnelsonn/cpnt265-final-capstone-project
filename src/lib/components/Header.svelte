@@ -11,10 +11,12 @@
 </script>
 
 <header class="text-white p-8 animate-gradient flex flex-col md:flex-row justify-between items-center">
+  <a class="hover:text-indigo-400 transition-colors duration-300" href="/">
   <div class="text-center md:text-left mb-4 md:mb-0">
     <h1 class="text-2xl md:text-4xl lg:text-5xl font-bold mb-2 font-barlow">{title}</h1>
     <p class="text-lg md:text-xl lg:text-2xl opacity-80 font-rasa">{subtitle}</p>
   </div>
+</a>
   <nav>
     <ul class="flex items-center space-x-4 md:space-x-8 font-mono">
       {#each navItems as { name, href }}
