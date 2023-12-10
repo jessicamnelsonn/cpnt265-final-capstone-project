@@ -6,7 +6,7 @@
 </script>
 
 <main class="flex items-center justify-center pb-6">
-  <section class="bg-gray-100 p-8 m-4 rounded-md shadow-xl transition duration-300 ease-in-out transform hover:scale-110">
+  <section class="bg-gray-300 p-8 m-4 rounded-md shadow-xl transition duration-300 ease-in-out transform hover:scale-110">
     <a href={slug} class="block">
       <article class="relative overflow-hidden rounded-md">
         <img src={image} alt={alt} class="w-full h-auto rounded-md mb-4 transition duration-300 ease-in-out transform hover:scale-105">
