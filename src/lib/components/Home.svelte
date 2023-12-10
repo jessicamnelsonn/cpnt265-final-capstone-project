@@ -23,11 +23,17 @@
 
 <About />
 
-<main class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 bg-black">
-  {#each projects as project}
-    <Projects {...project} />
-  {/each}
+<main class="bg-black">
+  <section class="text-5xl p-10 h-screen/2 text-white">Projects</section>
+  <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
+    {#each projects as project}
+      <Projects {...project} />
+    {/each}
+  </section>
 </main>
+
+
+
 
 <Contact />
 

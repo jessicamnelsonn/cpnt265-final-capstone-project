@@ -1,26 +1,26 @@
 export let projects = [
   {
-    title: 'Project 1', 
-    slug: 'project-1',
-    image: '/images/pawel-czerwinski-Qiy4hr18aGs-unsplash.jpg',
+    title: 'Full Page Website with Svelte and Tailwind CSS', 
+    slug: 'svelte-tailwind-css-full-page-website',
+    image: '/images/cucina-bella-image.png',
     githubUrl: 'https://cpnt262-final-project-dorothy-jessica.netlify.app/',
-    description: 'blah',
-    alt: 'bb'
+    description: 'A fully responsive Italian restaurant website built with Svelte and Tailwind CSS. Click on the card to explore the full website and experience the restaurant ambiance and menu.',
+    alt: 'Italian restaurant website homepage'
   },
   {
-    title: 'Project 2', 
-    slug:'project-2',
-    image: '/images/pawel-czerwinski-Qiy4hr18aGs-unsplash.jpg',
+    title: 'Full Page Website with Vanilla HTML and CSS', 
+    slug:'vanilla-html-css-full-page-website',
+    image: '/images/african-horizon-image.png',
     githubUrl: 'https://jessicamnelsonn.github.io/cpnt260-final-project/',
-    description: 'blah',
-    alt: 'bb'
+    description: 'An immersive African safari website created using Vanilla HTML and CSS. Click on the card to visit the full website and explore the beauty of African wildlife and landscapes.',
+    alt: 'African safari website homepage '
   },
   {
-    title: 'Project 3', 
-    slug: 'project-3',
-    image: '/images/pawel-czerwinski-Qiy4hr18aGs-unsplash.jpg',
+    title: 'Reactivity and Events with Svelte', 
+    slug: 'to-do-app',
+    image: '/images/to-do-image.png',
     githubUrl: 'https://cpnt262-a6-jessican.netlify.app/',
-    description: 'blah',
-    alt: 'bb'
+    description: 'A simple To-Do app showcasing the principles of reactivity and events in Svelte. Click on the card to interact with the full application and experience the clean and intuitive user interface.',
+    alt: 'To-Do app basic layout'
   },
 ]
