@@ -5,7 +5,7 @@
   </div>
 
   <!-- Right side contact form -->
-  <form action="/submit_contact" method="post" class="w-full lg:w-1/2 mt-2 bg-transparent p-8 text-black border-l-2 border-t-2 border-black border-solid">
+  <form action="https://formspree.io/f/mbjvnzgo" method="post" class="w-full lg:w-1/2 mt-2 bg-transparent p-8 text-black border-l-2 border-t-2 border-black border-solid">
 
     <h1 class="text-2xl lg:text-7xl font-bold mb-8 font-rasa">Contact Me</h1>
 
