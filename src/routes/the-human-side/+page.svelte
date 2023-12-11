@@ -60,11 +60,19 @@
     </iframe>
   </section>
 
-  <section class="flex flex-wrap">
-    <img class="w-full max-w-md p-4" src="/images/kiko.jpg" alt="">
-    <div class="w-full max-w-md p-4">
-      <h1 class="text-center mb-4">Kiko</h1>
-      <p class="font-rasa">This is my wonderful dog companion, Kiko. Always by my side, providing unconditional love and joy. Whether we're out for a walk or cozying up at home, my dog is a constant source of happiness in my life.</p>
+  <section class="mb-8">
+    <h2 class="text-2xl font-bold mb-4 p-4">The Human Side Gallery</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-4">
+      <img class="w-full h-80 max-w-xs max-h-xs object-cover p-4" src="/images/gallery-1.JPG" alt="">
+      <img class="w-full h-80 max-w-xs max-h-xs object-cover p-4" src="/images/gallery-2.JPG" alt="">
+      <img class="w-full h-80 max-w-xs max-h-xs object-cover p-4" src="/images/gallery-3.JPG" alt="">
+      <img class="w-full h-80 max-w-xs max-h-xs object-cover p-4" src="/images/gallery-4.JPG" alt="">
+      <img class="w-full h-80 max-w-xs max-h-xs object-cover p-4" src="/images/gallery-5.JPG" alt="">
+      <img class="w-full h-80 max-w-xs max-h-xs object-cover p-4" src="/images/gallery-6.JPG" alt="">
     </div>
   </section>
+  
+  
+  
+  
 </main>
