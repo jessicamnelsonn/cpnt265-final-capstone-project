@@ -28,17 +28,17 @@
 <!-- About Section -->
 <main class="h-screen flex flex-col md:flex-row" id="about-section">
   <!-- Left Section with Greetings -->
-  <section class="w-full md:w-1/2 h-full bg-white text-black flex items-center justify-center border-b">
+  <section class="w-full md:w-1/2 h-full bg-white flex items-center justify-center border-b">
     <div>
       {#key index}
         <!-- Displaying dynamic greetings with a sliding transition -->
-        <h1 class="text-black text-8xl text-center font-mono" transition:slide>{greetings[index]}!</h1>
+        <h1 class="text-[#be8e5b] text-8xl text-center font-mono" transition:slide>{greetings[index]}!</h1>
       {/key}
     </div>
   </section>
 
   <!-- Right Section with About Me Content -->
-  <section class="w-full md:w-1/2 h-full bg-black text-white p-4 overflow-auto">
+  <section class="w-full md:w-1/2 h-full bg-[#cda171] text-white p-4 overflow-auto">
     <div>
       <!-- Main heading for the About Me section -->
       <h1 class="font-rasa text-4xl md:text-6xl font-bold text-center mb-6">About Me</h1>

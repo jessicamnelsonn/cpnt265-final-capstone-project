@@ -25,7 +25,7 @@
 <About />
 
 <main>
-  <section class="text-5xl p-10">Projects</section>
+  <section class="text-7xl p-10 font-rasa text-[#4e5255]">Projects</section>
   <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
     {#each projects as project}
       <Projects {...project} />
