@@ -24,22 +24,11 @@
   </Modal>
 {/if}
 
-
-<main> 
-  <h1 class="text-center">Some Music I Love</h1> 
-  <section class="max-w-md mx-auto p-4">
+<main class="flex flex-wrap justify-center">
+  <section class="max-w-md p-4">
+    <h1 class="text-center mb-4">Some Music I Love</h1>
     <p class="font-rasa mb-4">Music is not just a collection of sounds; it's a soundtrack to moments, emotions, and memories. Here are some of my favorite tunes that have accompanied me on my coding adventures and beyond:</p>
     
-    <iframe 
-      title="Song Playlist"
-      width="100%" 
-      height="300" 
-      scrolling="no" 
-      frameborder="no" 
-      allow="autoplay" 
-      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1737325182&color=%23cd0000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
-    </iframe>
-
     <div class="text-xs mt-2" style="color: #cccccc; font-family: Interstate, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Garuda, Verdana, Tahoma, sans-serif; font-weight: 100;">
       <a href="https://soundcloud.com/jessicamnelson" 
         title="jessicamnelson" 
@@ -56,6 +45,26 @@
         style="color: #cccccc; text-decoration: none;">
         Songs I Love
       </a>
+    </div>
+  </section>
+
+  <section class="max-w-md p-4">
+    <iframe 
+      title="Song Playlist"
+      width="100%" 
+      height="300" 
+      scrolling="no" 
+      frameborder="no" 
+      allow="autoplay" 
+      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1737325182&color=%23cd0000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
+    </iframe>
+  </section>
+
+  <section class="flex flex-wrap">
+    <img class="w-full max-w-md p-4" src="/images/kiko.jpg" alt="">
+    <div class="w-full max-w-md p-4">
+      <h1 class="text-center mb-4">Kiko</h1>
+      <p class="font-rasa">This is my wonderful dog companion, Kiko. Always by my side, providing unconditional love and joy. Whether we're out for a walk or cozying up at home, my dog is a constant source of happiness in my life.</p>
     </div>
   </section>
 </main>
