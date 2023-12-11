@@ -7,7 +7,8 @@
     { name: '', href: '/' },
     { name: 'About', href: '#about-section' },
     { name: 'Projects', href: '#project-section' },
-    { name: 'Contact', href: '#contact-section' }
+    { name: 'Contact', href: '#contact-section' },
+    { name: 'The Human Side', href: '/the-human-side' }
   ];
 </script>
 
