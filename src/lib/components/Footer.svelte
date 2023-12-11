@@ -4,9 +4,10 @@
  
   // Navigation array
   const navItems = [
-    { name: 'Home', href: '/' },
-    { name: 'About', href: '/about' },
-    { name: 'Contact', href: '/contact' }
+    { name: '', href: '/' },
+    { name: 'About', href: '#about-section' },
+    { name: 'Projects', href: '#project-section' },
+    { name: 'Contact', href: '#contact-section' }
   ];
 </script>
 

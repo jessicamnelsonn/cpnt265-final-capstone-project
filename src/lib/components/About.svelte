@@ -73,7 +73,7 @@
       </p>
 
       <p class="text-base md:text-lg leading-loose mt-4 font-barlow">
-        Join me on this journey as I continue to learn, grow, and contribute my unique perspective to the ever-evolving landscape of visual storytelling and web development. Let's create something extraordinary together!
+        Join me on this journey as I continue to learn, grow, and contribute my unique perspective to the ever-evolving landscape of visual storytelling and web development.<br><br> Let's create something extraordinary together!
       </p>
     </div>
   </section>
