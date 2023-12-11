@@ -16,7 +16,7 @@
   <!-- svelte-ignore a11y-no-static-element-interactions -->
   <div
     on:click|stopPropagation
-    class="relative max-w-[90ch] p-4 bg-white rounded-lg"
+    class="relative max-w-[90ch] p-4 bg-white border-2 border-red-800"
   >
     <slot name="header" class="mb-4 text-lg font-bold" />
     <hr class="my-4 border-t border-gray-300" />
@@ -26,7 +26,7 @@
     <button
       autofocus
       on:click={() => dialog.close()}
-      class="bg-blue-500 text-white px-4 py-2 rounded"
+      class="border border-black text-black hover:border-red-700 hover:text-red-700 px-4 py-2 rounded font-rasa"
     >
       Close
     </button>
