@@ -17,7 +17,7 @@
   <!-- Text section over the video -->
   <section class="absolute top-1/3 left-0 transform -translate-y-2/5">
     <!-- Dynamic greeting text with a gradient background -->
-    <h1 class="md:flex md:flex-col sm:flex-col text-3xl md:text-5xl px-4 py-2 font-barlow text-transparent bg-gradient-to-r from-slate-200/60 to-50% to-slate-200 bg-clip-text">
+    <h1 class="md:flex md:flex-col text-3xl md:text-5xl px-4 py-2 font-barlow md:text-transparent md:bg-gradient-to-r md:from-slate-200/60 md:to-50% md:to-slate-200 md:bg-clip-text text-white bg-black/20 p-2">
       Trusted by the most innovative minds
     </h1>
   </section>
