@@ -1,14 +1,22 @@
 <script>
-  // Import the onMount function from Svelte, which runs code when the component is mounted
   import { onMount } from 'svelte';
 
-  // Execute code when the component is mounted
   onMount(() => {
-    // Use setTimeout to delay the execution of the code inside it
-    setTimeout(() => {
-      // Find the element with the class 'loader-wrapper' and hide it by changing its display style
-      document.querySelector('.loader-wrapper').style.display = 'none';
-    }, 3000); // Set the timeout duration to 3000 milliseconds (3 seconds)
+    // Use window.onload to ensure the entire page is loaded
+    window.onload = () => {
+      // Find the loader wrapper element
+      const loaderWrapper = document.querySelector('.loader-wrapper');
+
+      // Check if the loader wrapper element exists
+      if (loaderWrapper) {
+        // Use setTimeout to delay hiding the loader by changing its display style
+        setTimeout(() => {
+          loaderWrapper.style.display = 'none';
+        }, 3000);
+      } else {
+        console.error('Loader wrapper not found');
+      }
+    };
   });
 </script>
 
