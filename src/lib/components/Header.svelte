@@ -1,9 +1,9 @@
 <script>
   const navItems = [
     { name: '', href: '/' },
-    { name: 'About', href: '#about-section' },
-    { name: 'Projects', href: '#project-section' },
-    { name: 'Contact', href: '#contact-section' },
+    { name: 'About', href: '/#about-section' },
+    { name: 'Projects', href: '/#project-section' },
+    { name: 'Contact', href: '/#contact-section' },
   ];
 
   export let title = "Jessica Nelson";
