@@ -12,7 +12,7 @@
         // Use setTimeout to delay hiding the loader by changing its display style
         setTimeout(() => {
           loaderWrapper.style.display = 'none';
-        }, 3000);
+        }, 1500);
       } else {
         console.error('Loader wrapper not found');
       }
