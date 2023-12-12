@@ -1,16 +1,35 @@
 <script>
+  import { onMount } from 'svelte';
+  import { gsap } from 'gsap';
   import Modal from '../../lib/components/Modal.svelte';
 
   let showModal = false;
+
+  onMount(() => {
+    // GSAP Animation for the gallery
+    gsap.fromTo(".container img", {
+      y: 100,
+      opacity: 0,
+      scale: 0.1
+    }, {
+      y: 0,
+      opacity: 1,
+      scale: 1,
+      stagger: 0.2,
+      ease: "Bounce.easeOut"
+    });
+  });
 </script>
 
 <div class="flex items-center justify-center">
+  <!-- Button to trigger modal -->
   <button on:click={() => (showModal = true)} class="border border-black text-black px-4 py-2 m-2 rounded hover:text-red-700 hover:border-red-700">
     Behind the Scenes
   </button>
 </div>
 
 {#if showModal}
+  <!-- Modal content -->
   <Modal bind:showModal>
     <h2 slot="header" class="font-rasa">
       The Human Side
@@ -25,29 +44,20 @@
 {/if}
 
 <main class="flex flex-wrap justify-center">
+  <!-- Section about music -->
   <section class="max-w-md p-4">
     <h1 class="text-center mb-4">Some Music I Love</h1>
     <p class="font-rasa mb-4">Music is not just a collection of sounds; it's a soundtrack to moments, emotions, and memories. Here are some of my favorite tunes that have accompanied me on my coding adventures and beyond:</p>
     
+    <!-- Music links -->
     <div class="text-xs mt-2" style="color: #cccccc; font-family: Interstate, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Garuda, Verdana, Tahoma, sans-serif; font-weight: 100;">
-      <a href="https://soundcloud.com/jessicamnelson" 
-        title="jessicamnelson" 
-        target="_blank" 
-        style="color: #cccccc; text-decoration: none;">
-        jessicamnelson
-      </a> 
-      
+      <a href="https://soundcloud.com/jessicamnelson" title="jessicamnelson" target="_blank" style="color: #cccccc; text-decoration: none;">jessicamnelson</a> 
       <span class="mx-1">/</span>
-      
-      <a href="https://soundcloud.com/jessicamnelson/sets/song-i-love" 
-        title="Songs I Love" 
-        target="_blank" 
-        style="color: #cccccc; text-decoration: none;">
-        Songs I Love
-      </a>
+      <a href="https://soundcloud.com/jessicamnelson/sets/song-i-love" title="Songs I Love" target="_blank" style="color: #cccccc; text-decoration: none;">Songs I Love</a>
     </div>
   </section>
 
+  <!-- Music playlist -->
   <section class="max-w-md p-4">
     <iframe 
       title="Song Playlist"
@@ -60,9 +70,11 @@
     </iframe>
   </section>
 
+  <!-- Gallery section -->
   <section class="mb-8">
     <h2 class="text-2xl font-bold mb-4 p-4">The Human Side Gallery</h2>
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-4">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-4 container">
+      <!-- Gallery images -->
       <img class="w-full h-80 max-w-xs max-h-xs object-cover p-4" src="/images/gallery-1.JPG" alt="">
       <img class="w-full h-80 max-w-xs max-h-xs object-cover p-4" src="/images/gallery-2.JPG" alt="">
       <img class="w-full h-80 max-w-xs max-h-xs object-cover p-4" src="/images/gallery-3.JPG" alt="">
@@ -71,8 +83,4 @@
       <img class="w-full h-80 max-w-xs max-h-xs object-cover p-4" src="/images/gallery-6.JPG" alt="">
     </div>
   </section>
-  
-  
-  
-  
 </main>
