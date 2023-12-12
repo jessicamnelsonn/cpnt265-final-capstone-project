@@ -78,9 +78,15 @@
       <img class="w-full h-80 max-w-xs max-h-xs object-cover p-4" src="/images/gallery-1.JPG" alt="">
       <img class="w-full h-80 max-w-xs max-h-xs object-cover p-4" src="/images/gallery-2.JPG" alt="">
       <img class="w-full h-80 max-w-xs max-h-xs object-cover p-4" src="/images/gallery-3.JPG" alt="">
-      <img class="w-full h-80 max-w-xs max-h-xs object-cover p-4" src="/images/gallery-4.JPG" alt="">
+      <img class="w-full h-80 max-w-xs max-h-xs object-cover p-4" src="/images/gallery-4.PNG" alt="">
       <img class="w-full h-80 max-w-xs max-h-xs object-cover p-4" src="/images/gallery-5.JPG" alt="">
       <img class="w-full h-80 max-w-xs max-h-xs object-cover p-4" src="/images/gallery-6.JPG" alt="">
+      <img class="w-full h-80 max-w-xs max-h-xs object-cover p-4" src="/images/gallery-7.jpg" alt="">
+      <img class="w-full h-80 max-w-xs max-h-xs object-cover p-4" src="/images/gallery-8.JPG" alt="">
+      <img class="w-full h-80 max-w-xs max-h-xs object-cover p-4" src="/images/gallery-9.JPG" alt="">
+      <img class="w-full h-80 max-w-xs max-h-xs object-cover p-4" src="/images/gallery-10.JPG" alt="">
+      <img class="w-full h-80 max-w-xs max-h-xs object-cover p-4" src="/images/gallery-11.JPG" alt="">
+      <img class="w-full h-80 max-w-xs max-h-xs object-cover p-4" src="/images/gallery-12.jpg" alt="">
     </div>
   </section>
 </main>
