@@ -26,9 +26,7 @@
     <button
       autofocus
       on:click={() => dialog.close()}
-      class="border border-black text-black hover:border-red-700 hover:text-red-700 px-4 py-2 rounded font-rasa"
-    >
-      Close
+      class="border border-black text-black hover:border-red-800 hover:text-red-800 px-4 py-2 rounded font-rasa">Close
     </button>
   </div>
 </dialog>
