@@ -2,7 +2,7 @@ export let projects = [
   {
     title: 'Full Page Website with Svelte and Tailwind CSS', 
     slug: 'svelte-tailwind-css-full-page-website',
-    image: '/images/cucina-bella-image.png',
+    image: '/images/cucina-bella-image.jpg',
     githubUrl: 'https://cpnt262-final-project-dorothy-jessica.netlify.app/',
     description: 'A fully responsive Italian restaurant website built with Svelte and Tailwind CSS. Click on the card to explore the full website and experience the restaurant ambiance and menu.',
     alt: 'Italian restaurant website homepage'
@@ -10,7 +10,7 @@ export let projects = [
   {
     title: 'Full Page Website with Vanilla HTML and CSS', 
     slug:'vanilla-html-css-full-page-website',
-    image: '/images/african-horizon-image.png',
+    image: '/images/african-horizon-image.jpg',
     githubUrl: 'https://jessicamnelsonn.github.io/cpnt260-final-project/',
     description: 'An immersive African safari website created using Vanilla HTML and CSS. Click on the card to visit the full website and explore the beauty of African wildlife and landscapes.',
     alt: 'African safari website homepage '
